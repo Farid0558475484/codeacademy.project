@@ -1,0 +1,540 @@
+.header-top-adress p {
+  text-align: left;
+  color: #323232;
+  font-family: visby cf, Sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.header-top-logo nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.header-top-logo nav ul li {
+  list-style: none;
+  color: black;
+}
+.header-top-search-button {
+  display: flex;
+  justify-content: space-between;
+}
+.header-buttom-search-button {
+  display: flex;
+  justify-content: space-between;
+}
+.header-top-button {
+  background-color: #f9dd00;
+  text-decoration: inherit;
+  font-size: 18px;
+
+  padding: 5px 10px;
+
+}
+.header-buttom-button {
+  background-color: #f9dd00;
+  text-decoration: inherit;
+  font-size: 18px;
+
+  padding: 5px 10px;
+  
+}
+
+.header-top-button button {
+  font-weight: bold;
+}
+.header-buttom-button button {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 991px) {
+  .nav-bar-desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .nav-bar-responsive {
+    display: none;
+    position: fixed;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .header-fixed {
+    display: none;
+  }
+}
+
+/* @media only screen and (min-width: 767px) {
+    .nav-bar-responsive {
+    
+      position: fixed;
+    }
+  
+} */
+.bar-responsive-logo img {
+  width: 200px;
+  height: 70px;
+}
+
+.bar-responsive-phone {
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 40px;
+}
+.whatsapp-photo {
+  font-size: 30px;
+}
+
+.phone-photo {
+  font-size: 30px;
+}
+
+.menu-photo {
+  font-size: 30px;
+  justify-content: end;
+}
+
+.header-buttom-logo img {
+  width: 100px;
+  height: 31px;
+}
+
+.element-nav-menu {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.hr-1 {
+  margin-bottom: -16px;
+}
+.hr-2 {
+  margin-top: -16px;
+  margin-bottom: -16px;
+}
+
+.carousel-control-prev {
+  width: 3%;
+}
+.carousel-control-next {
+  width: 3%;
+}
+.carousel {
+  height: 900px;
+  width: auto;
+}
+.carousel-item img {
+  height: 900px;
+  width: 1296px;
+}
+
+.h2 {
+  font-size: 50px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.h5 {
+  font-family: visby cf, Sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  margin-left: 80px;
+  margin-bottom: 60px;
+}
+
+.title-p p {
+  margin-left: 80px;
+}
+
+.items-element {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-6 {
+  width: 47%;
+}
+.digiital-marketing {
+  padding: 20px;
+  border: 1px solid grey;
+  height: 200px;
+}
+.design {
+  padding: 20px;
+  border: 1px solid grey;
+  height: 200px;
+}
+
+.programming {
+  padding: 20px;
+  border: 1px solid grey;
+  height: 200px;
+}
+
+.sistem {
+  padding: 20px;
+  border: 1px solid grey;
+  height: 200px;
+}
+
+.logo i {
+  font-size: 80px;
+}
+
+.digiital-marketing:hover {
+  background-color: blueviolet;
+  scale: 1.1 1.1;
+  transition: all 0.9s;
+}
+.design:hover {
+  background-color: yellow;
+  scale: 1.1 1.1;
+  transition: all 0.5s;
+}
+.sistem:hover {
+  background-color: green;
+  scale: 1.1 1.1;
+  transition: all 0.5s;
+}
+.programming:hover {
+  background-color: blue;
+  scale: 1.1 1.1;
+  transition: all 0.5s;
+}
+
+.education {
+  display: flex;
+}
+
+@media only screen and (max-width: 991px) {
+  .items-element {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .education {
+    display: block;
+  }
+
+  .title-logo {
+    margin-left: 0%;
+  }
+  .digiital-marketing {
+    width: 100%;
+  }
+}
+.header-buttom-button {
+  margin-right: -40px;
+}
+
+/* why code */
+.line {
+  width: 90px;
+  height: 3px;
+  background-color: rgb(255, 55, 0);
+}
+.why-image {
+  width: 190px;
+  height: 210px;
+}
+.card {
+  border: none;
+}
+.why {
+  margin-top: 150px;
+}
+/* why code */
+
+/* Banner code */
+.banner {
+  height: 550px;
+  margin-top: 100px;
+  background-image: url(./image/banner.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  
+  
+  background-attachment: fixed;
+  /* background-attachment: local; */
+ 
+}
+.banner-p {
+  margin-top: 7%;
+  margin-left: 30%;
+  color: white;
+  font-size: 21px;
+  font-weight: 800;
+  line-height: 1.33em;
+  font-family: visby cf, Sans-serif;
+background-attachment: fixed  ;
+position: fixed;
+  
+}
+
+.banner-items {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  color: white;
+  font-size: 40px;
+  font-weight: 150;
+  line-height: 1em;
+  font-family: visby cf, Sans-serif;
+  
+}
+
+.banner-title {
+  font-size: 70px;
+  font-weight: 800;
+  position: sticky;
+}
+/* Banner code */
+
+/* graduades student */
+.graduades-title-graduades {
+  margin-top: 150px;
+  font-size: 70px;
+  font-weight: 100;
+}
+
+.graduades-title-graduades strong {
+  font-family: visby cf, Sans-serif;
+  font-size: 70px;
+  font-weight: 650;
+}
+
+.card-body {
+  font-size: 1.3em;
+  font-style: italic;
+  line-height: 1.5;
+  font-weight: 150;
+}
+.graduades-photo {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+/* graduades student */
+
+/* academic our partners */
+
+.academic-title {
+  font-size: 100px;
+}
+
+.academic-title h2 {
+  font-family: visby cf, Sans-serif;
+  font-size: 70px;
+  font-weight: 120;
+  margin-bottom: -20px;
+  margin-top: 120px;
+}
+
+.academic-line::before {
+  background-color: #f9dd00;
+  color: #f9dd00;
+  height: 200px;
+  width: 200px;
+}
+
+.academic-title-1 h2 {
+  font-family: visby cf, Sans-serif;
+  font-size: 70px;
+  font-weight: 550;
+  margin-bottom: 30px;
+}
+
+.academic-line {
+  background-image: url(./image/sep-line.png);
+  height: 4px;
+  width: 200px;
+  margin-left: 30%;
+  margin-bottom: 50px;
+}
+
+.partners-photo{
+  height: 200px;
+  width: 200px;
+}
+/* academic our partners */
+
+
+/* our graduades start */
+
+.our-graduates-h2{
+  margin-top: 200px;
+  font-size: 60px;
+  font-weight: 650;
+  margin-bottom: -30px;
+  font-family: visby cf, Sans-serif;
+  
+
+}
+.our-graduates-h2-2{
+  font-size: 70px;
+  font-weight: 150;
+  
+}
+
+.our-graduates-logo{
+  margin-bottom: 30px;
+}
+
+.our-graduates-photo img{
+  height: 150px;
+  width: 150px;
+  margin: 15px;
+  flex-wrap: wrap;
+}
+
+/* our graduades end */
+
+/* lets meet start */
+#lets-meet{
+  /* background-color: #f4f5f8;
+  height: 500px;
+  margin-top: 200px;
+   */
+
+}
+
+.lets-title{
+  margin-left: 200px;
+  margin-top: 100px;
+  /* position: absolute; */
+
+}
+.lets-title span{
+  font-size: 60px;
+  margin-left: -60px;
+  
+  
+}
+.lets-title h2{
+  font-size: 30px;
+  margin-bottom: 30px;
+
+}
+
+/* lets meet end */
+
+/* table start */
+.table-code{
+  margin-top: 150px;
+  margin-bottom: 150px;
+ 
+}
+
+/* table end */
+
+
+
+#contact{
+  margin-top: 80px;
+  padding-top: 80px;
+  background-color: #F4F5F8;
+}
+
+#contact .content{
+  margin-left: 80px;
+}
+
+#contact .content-2{
+  margin-left: 40px;
+}
+
+#contact .contact-us input{
+  outline: none;
+  border: none;
+}
+
+#contact .contact-us .full-name{
+  width: 192.5px;
+  height: 59px;
+  padding-left: 10px;
+}
+
+#contact .contact-us .num-ber{
+  width: 296.25px;
+  height: 59px;
+  margin-left: 10px;
+}
+
+#contact .contact-us .mobile{
+  width: 87.75px;
+  height: 59px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+#contact .contact-us .education{
+  width: 400px;
+  height: 59px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+#contact .contact-us button{
+  width: 400px;
+  height: 54px;
+  color: white;
+  margin-top: 20px;
+}
+
+#contact .contact-us input:nth-child(2){
+  margin-left: 10px;
+}
+
+#top-end .about{
+  margin-top: 100px;
+}
+
+#top-end .fields-of-study{
+  margin-top: 100px;
+}
+
+#top-end .cooperative{
+  margin-top: 100px;
+}
+
+#location .our-location{
+  margin-top: 50px;
+  padding: 50px;
+  background-color: #F4F5F8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#end {
+  margin-top: 60px;
+}
+#end .icons i{
+  font-size: 20px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+#end .code-academy-logo img{
+  margin-left: 100px;
+  width: 150px;
+  height: 50px;
+}
+
+#contact .contact-us{
+  padding: 30px 0;
+}
+
+@media (max-width:560px){
+  .foot-row{
+      display: flex;
+      gap: 20px;
+  }
+}
